@@ -1,0 +1,18 @@
+{
+  "name": "RoguelikeTweets",
+  "version": "1.0.0",
+  "description": "Retweets #roguelike",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "forever start --minUptime 1000 --spinSleepTime 1000 server.js",
+    "stop":  "forever stop server.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "simple-node-logger": "^18.12.22",
+    "twit": "^2.2.11",
+    "forever": "^1.0.0"
+  }
+}
